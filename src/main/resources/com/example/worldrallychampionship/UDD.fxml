@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="379.0" prefWidth="474.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallychampionship.Controller">
+    <children>
+        <AnchorPane prefHeight="81.0" prefWidth="474.0" style="-fx-background-color: #e25822;">
+            <children>
+                <Label layoutX="74.0" layoutY="17.0" text="Update Driver Details" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="32.0" />
+                    </font>
+                    <textFill>
+                        <LinearGradient endX="0.402702707857699" endY="0.4108108109719044">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </textFill>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button layoutX="64.0" layoutY="236.0" mnemonicParsing="false" onAction="#gotomenu" style="-fx-background-color: #e25822;" text="Go Back" textFill="WHITE" />
+      <Button layoutX="358.0" layoutY="236.0" mnemonicParsing="false" onAction="#gotoddd" style="-fx-background-color: #e25822;" text="Next" textFill="WHITE" />
+      <Label layoutX="42.0" layoutY="132.0" prefHeight="27.0" prefWidth="389.0" text=" IN ORDER TO UPDATE THE DRIVER DETAILS" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="159.0" prefHeight="17.0" prefWidth="267.0" text="YOU NEED TO FIRST DELETE IT" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="190.0" text="PLEASE CLICK NEXT TO PROCEED" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>

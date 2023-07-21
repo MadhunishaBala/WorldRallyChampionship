@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="379.0" prefWidth="474.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallychampionship.Controller">
+   <children>
+      <TableView fx:id="raceView" layoutX="14.0" layoutY="27.0" prefHeight="318.0" prefWidth="445.0">
+        <columns>
+          <TableColumn fx:id="Datecolumn" prefWidth="137.71429252624512" text="DATE" />
+          <TableColumn fx:id="Locationcolumn" prefWidth="158.28575134277344" text="LOCATION" />
+            <TableColumn fx:id="ChampionIdcolumn" prefWidth="146.8571210588728" text="CHAMPION'S ID" />
+        </columns>
+      </TableView>
+      <Button layoutX="54.0" layoutY="345.0" mnemonicParsing="false" onAction="#racetable" style="-fx-background-color: #e25822;" text="View" />
+      <Button layoutX="360.0" layoutY="345.0" mnemonicParsing="false" onAction="#gotomenu" style="-fx-background-color: #e25822;" text="Back" />
+   </children>
+</AnchorPane>

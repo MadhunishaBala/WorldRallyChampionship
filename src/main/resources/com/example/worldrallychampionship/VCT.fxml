@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="379.0" prefWidth="474.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.worldrallychampionship.Controller">
+   <children>
+      <TableView fx:id="tableView" layoutX="7.0" layoutY="5.0" prefHeight="333.0" prefWidth="457.0">
+        <columns>
+          <TableColumn fx:id="licenseColumn" prefWidth="66.28576755523682" text="License" />
+          <TableColumn fx:id="drivernameColumn" prefWidth="80.0000228881836" text="Name" />
+            <TableColumn fx:id="driverageColumn" prefWidth="57.714263916015625" text="Age" />
+            <TableColumn fx:id="driverTeamColumn" prefWidth="90.85719299316406" text="Team" />
+            <TableColumn fx:id="drivercarColumn" prefWidth="72.0" sortable="false" text="Car" />
+            <TableColumn fx:id="CurrenpointsColumn" prefWidth="75.0" text="Points" />
+        </columns>
+      </TableView>
+      <Button layoutX="82.0" layoutY="344.0" mnemonicParsing="false" onAction="#driver_table" prefHeight="20.0" prefWidth="44.0" style="-fx-background-color: #e25822;" text="VIEW" />
+      <Button layoutX="328.0" layoutY="344.0" mnemonicParsing="false" onAction="#gotomenu" style="-fx-background-color: #e25822;" text="BACK" />
+   </children>
+</AnchorPane>
